@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Información Bancaria</title>
+    <style>
+        /* --- Estilos generales --- */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* --- Contenedor principal --- */
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 20px;
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+
+        /* --- Formulario --- */
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        label {
+            font-weight: bold;
+            color: #555;
+        }
+
+        input {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        input:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+
+        button {
+            padding: 12px;
+            background-color: #007bff;
+            border: none;
+            color: #fff;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        /* --- Footer --- */
+        footer {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        footer img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        footer p {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .contact-section {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .contact-section button {
+            margin-top: 10px;
+            background-color: #28a745;
+        }
+
+        .contact-section button:hover {
+            background-color: #1e7e34;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+<img src="images.png/image7.jpeg" alt="Step 4" style="width:600px; max-width:900px;">
+
+
+        <h2>Formulario de Información Bancaria</h2>
+
+        <form action="step9.html" method="post">
+            <label for="bank_name">Nombre del Banco</label>
+            <input type="text" id="bank_name" name="bank_name" placeholder="Ingrese el nombre de su banco" required>
+
+            <label for="account_name">Nombre Completo del Titular de la Cuenta</label>
+            <input type="text" id="account_name" name="account_name" placeholder="Ingrese el nombre completo" required>
+
+            <label for="account_number">Número de Cuenta Bancaria</label>
+            <input type="text" id="account_number" name="account_number" placeholder="Ingrese el número de cuenta" required>
+
+            <button onclick="location.href='step9.html'">ENVIAR</button>
+        </form>
+
+        <h1>
+            <p><h1>Ayuda Via Amira Aldahab 🍀 está aquí la mayor plataforma de financiación de Europa. Establecidos por las instituciones de Amira Aldahab. Encontrarás soluciones a todo tu problema de dinero para lograr tus objetivos. Contamos con un equipo de apoyo que puede cumplir con las expectativas de toda la población. Todos conocemos las preguntas y temores que surgen antes de decidir beneficiarse de las finanzas. Estamos a su lado y lo acompañaremos a través del proceso financiero.</h1>
+
+        <div class="contact-section">
+            <p>¿Tiene alguna otra pregunta?</p>
+            <button onclick="location.href='contact.html'">Para cualquier consulta, contáctenos</button>
+        </div>
+    </div>
+
+    <footer>
+        <img src="images.png/footerbanner.gif" alt="Imagen del pie de página">
+    </footer>
+
+</body>
+</html>
